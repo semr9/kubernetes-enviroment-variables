@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: simple-webapp-color
-      image: paulkellerman/webapp-color:latest 
+      image:semr9/change-backgroundcolorpage-app:latest
       ports:
         - containerPort: 80
       env:
